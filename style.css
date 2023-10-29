@@ -22,7 +22,7 @@
 /* print(numero) */
 
 header {
-    background-image: url(./imagens/Rectangle\ 1.png);
+    background-image: url(./imagens/img.png);
     background-size: cover;
     height: 8.375rem;
 
@@ -119,5 +119,21 @@ main {
 .login > p a {
     font-weight: 700;
     font-size: 1rem;
+}
+
+@media(min-width: 1000px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    main {
+        padding-inline: 7rem;
+    }
 }
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
