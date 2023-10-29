@@ -29,14 +29,23 @@ header {
     margin-bottom: 3.7rem;
 }
 
-men {
+main {
     padding-inline: 1.5rem;
+}
+
+.descricao {
+    margin-bottom: 2.5rem;
 }
 
 .descricao h1 {
     color: var(--gray-800);
     margin-bottom: 1rem;
     font-size: 1.5625rem;
+}
+
+.descricao p {
+    font-size: 0.8125;
+    color: var(--gray-800);
 }
 
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
