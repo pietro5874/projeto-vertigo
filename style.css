@@ -6,7 +6,16 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+/* 1rem = 16px */
+/* 40px = 2.5 rem */
+
 header {
     background-image: url(./imagens/Rectangle\ 1.png);
     background-size: cover;
+    height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
